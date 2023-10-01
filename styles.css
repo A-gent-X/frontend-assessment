@@ -8,9 +8,14 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-nav {
+nav{
 	border-bottom: 2px solid orange;
 }
+
+.crumb:hover{
+	color: lime;
+}
+
 
 ol {
 	padding-left: 0;
@@ -67,6 +72,12 @@ table{
 	justify-content: center;
 }
 
+table:hover, td:hover{
+	background-color: blueviolet;
+	transition: 1s;
+	color: lime;
+}
+
 th{
 	text-decoration: underline;
 }
@@ -74,3 +85,8 @@ th{
 #classify{
 	text-decoration: underline;
 }
+
+nav{
+	margin: 30px;
+}
+
