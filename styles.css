@@ -11,22 +11,20 @@ body {
 nav{
 	border-bottom: 2px solid orange;
 }
-
 .crumb:hover{
-	color: lime;
+	color:lime;
 }
 
+.crumb{
+margin-right: 2em;
+display: inline;
+}
 
 ol {
 	padding-left: 0;
 }
 
-.crumb {
-	margin-right: 2em;
-	display: inline;
-}
-
-a {
+a { 
 	color: orange;
 }
 
@@ -75,7 +73,11 @@ table{
 table:hover, td:hover{
 	background-color: blueviolet;
 	transition: 1s;
-	color: lime;
+	color: lime;	
+}
+
+table{
+	box-shadow: 3px 3px 3px black;
 }
 
 th{
@@ -88,5 +90,24 @@ th{
 
 nav{
 	margin: 30px;
+}
+
+/* styling buttons */
+#color{
+
+}
+
+button{
+	background-color: yellow;
+	box-shadow: 2px 2px 2px black;
+	border-radius: 10%;
+}
+
+button:hover{
+	background-color: green;
+	color: white;
+	transition: 1s;
+	box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+	transform: scale(1.1, 1.1);
 }
 
